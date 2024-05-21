@@ -9,6 +9,8 @@ import NotFound from './components/NotFound'
 
 import './App.css'
 
+// App component
+
 const App = () => (
   <Switch>
     <Route exact path="/login" component={Login} />
